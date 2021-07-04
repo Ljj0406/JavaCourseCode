@@ -1,0 +1,23 @@
+Java HotSpot(TM) Client VM (25.291-b10) for windows-x86 JRE (1.8.0_291-b10), built on Apr  9 2021 04:22:09 by "java_re" with MS VC++ 15.9 (VS2017)
+Memory: 4k page, physical 8269088k(1300976k free), swap 18230560k(7972684k free)
+CommandLine flags: -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+2021-06-29T19:42:37.772+0800: 0.370: [GC (Allocation Failure) 2021-06-29T19:42:37.773+0800: 0.370: [DefNew: 139776K->17472K(157248K), 0.0286223 secs] 139776K->42913K(506816K), 0.0288519 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2021-06-29T19:42:37.845+0800: 0.443: [GC (Allocation Failure) 2021-06-29T19:42:37.845+0800: 0.443: [DefNew: 157133K->17471K(157248K), 0.0454070 secs] 182575K->91541K(506816K), 0.0455388 secs] [Times: user=0.00 sys=0.03, real=0.05 secs] 
+2021-06-29T19:42:37.940+0800: 0.537: [GC (Allocation Failure) 2021-06-29T19:42:37.940+0800: 0.537: [DefNew: 157247K->17471K(157248K), 0.0258288 secs] 231317K->131568K(506816K), 0.0258887 secs] [Times: user=0.00 sys=0.01, real=0.03 secs] 
+2021-06-29T19:42:38.001+0800: 0.598: [GC (Allocation Failure) 2021-06-29T19:42:38.001+0800: 0.598: [DefNew: 157247K->17471K(157248K), 0.0235040 secs] 271344K->171229K(506816K), 0.0235868 secs] [Times: user=0.02 sys=0.02, real=0.02 secs] 
+2021-06-29T19:42:38.060+0800: 0.657: [GC (Allocation Failure) 2021-06-29T19:42:38.060+0800: 0.657: [DefNew: 157247K->17470K(157248K), 0.0252893 secs] 311005K->215145K(506816K), 0.0253539 secs] [Times: user=0.02 sys=0.02, real=0.03 secs] 
+2021-06-29T19:42:38.120+0800: 0.718: [GC (Allocation Failure) 2021-06-29T19:42:38.120+0800: 0.718: [DefNew: 157246K->17471K(157248K), 0.0288488 secs] 354921K->260894K(506816K), 0.0289216 secs] [Times: user=0.02 sys=0.02, real=0.03 secs] 
+2021-06-29T19:42:38.187+0800: 0.784: [GC (Allocation Failure) 2021-06-29T19:42:38.187+0800: 0.784: [DefNew: 157247K->17470K(157248K), 0.0351283 secs] 400670K->308598K(506816K), 0.0351964 secs] [Times: user=0.00 sys=0.05, real=0.03 secs] 
+2021-06-29T19:42:38.263+0800: 0.860: [GC (Allocation Failure) 2021-06-29T19:42:38.263+0800: 0.860: [DefNew: 157246K->17471K(157248K), 0.0290222 secs] 448374K->351544K(506816K), 0.0290969 secs] [Times: user=0.00 sys=0.03, real=0.03 secs] 
+2021-06-29T19:42:38.333+0800: 0.930: [GC (Allocation Failure) 2021-06-29T19:42:38.333+0800: 0.930: [DefNew: 157247K->157247K(157248K), 0.0000157 secs]2021-06-29T19:42:38.333+0800: 0.930: [Tenured: 334072K->276295K(349568K), 0.0579186 secs] 491320K->276295K(506816K), [Metaspace: 2226K->2226K(4480K)], 0.0580248 secs] [Times: user=0.05 sys=0.00, real=0.06 secs] 
+2021-06-29T19:42:38.432+0800: 1.028: [GC (Allocation Failure) 2021-06-29T19:42:38.432+0800: 1.028: [DefNew: 139776K->17471K(157248K), 0.0104849 secs] 416071K->323809K(506816K), 0.0105477 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2021-06-29T19:42:38.481+0800: 1.077: [GC (Allocation Failure) 2021-06-29T19:42:38.481+0800: 1.077: [DefNew: 157241K->157241K(157248K), 0.0000159 secs]2021-06-29T19:42:38.481+0800: 1.077: [Tenured: 306338K->310901K(349568K), 0.0712478 secs] 463580K->310901K(506816K), [Metaspace: 2226K->2226K(4480K)], 0.0713648 secs] [Times: user=0.08 sys=0.00, real=0.07 secs] 
+2021-06-29T19:42:38.592+0800: 1.190: [GC (Allocation Failure) 2021-06-29T19:42:38.592+0800: 1.190: [DefNew: 139776K->139776K(157248K), 0.0000151 secs]2021-06-29T19:42:38.592+0800: 1.190: [Tenured: 310901K->322202K(349568K), 0.0953929 secs] 450677K->322202K(506816K), [Metaspace: 2226K->2226K(4480K)], 0.0955172 secs] [Times: user=0.09 sys=0.00, real=0.10 secs] 
+Heap
+ def new generation   total 157248K, used 5860K [0x04200000, 0x0eca0000, 0x0eca0000)
+  eden space 139776K,   4% used [0x04200000, 0x047b90f0, 0x0ca80000)
+  from space 17472K,   0% used [0x0db90000, 0x0db90000, 0x0eca0000)
+  to   space 17472K,   0% used [0x0ca80000, 0x0ca80000, 0x0db90000)
+ tenured generation   total 349568K, used 322202K [0x0eca0000, 0x24200000, 0x24200000)
+   the space 349568K,  92% used [0x0eca0000, 0x22746bd0, 0x22746c00, 0x24200000)
+ Metaspace       used 2230K, capacity 2280K, committed 2368K, reserved 4480K
