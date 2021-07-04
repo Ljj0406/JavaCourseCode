@@ -26,7 +26,6 @@ public class OkHttpClient {
         String text = OkHttpClient.run(url);
         System.out.println("url: " + url + " ; response: \n" + text);
 
-        // 清理资源
         OkHttpClient.client = null;
     }
 }
